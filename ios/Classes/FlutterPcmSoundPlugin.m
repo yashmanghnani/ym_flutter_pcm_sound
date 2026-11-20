@@ -156,7 +156,7 @@ typedef NS_ENUM(NSUInteger, LogLevel) {
             }
 
             // set stream format
-            AudioStreamBasicDescription audioFormat;
+            AudioStreamBasicDescription audioFormat = {0};
             audioFormat.mSampleRate = [sampleRate intValue];
             audioFormat.mFormatID = kAudioFormatLinearPCM;
             audioFormat.mFormatFlags = kAudioFormatFlagIsSignedInteger | kAudioFormatFlagIsPacked;

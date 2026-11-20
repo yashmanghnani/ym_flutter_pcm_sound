@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - ym_flutter_pcm_sound (2.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - ym_flutter_pcm_sound (from `.symlinks/plugins/ym_flutter_pcm_sound/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  ym_flutter_pcm_sound:
+    :path: ".symlinks/plugins/ym_flutter_pcm_sound/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  ym_flutter_pcm_sound: 4604d0d74ae57385bcd1feeb27d0dbbaab948d8a
+
+PODFILE CHECKSUM: 3ba3a73b1b12adcf321a227a745625fe0888cc82
+
+COCOAPODS: 1.16.2
